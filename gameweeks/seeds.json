@@ -1,0 +1,120 @@
+[
+{
+  "model": "gameweeks.gw",
+  "pk": 1,
+  "fields": {
+    "date": "December 2nd - 3rd 2021",
+    "league": [
+      1,
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "gameweeks.match",
+  "pk": 3,
+  "fields": {
+    "gameweek": 1,
+    "name": "Div One - Hel A V Leo B",
+    "date": "2021-12-02",
+    "time": "18:00:00",
+    "played": false,
+    "team_home_player_one_score_one": 0,
+    "team_home_player_one_score_two": 0,
+    "team_home_player_two_score_one": 0,
+    "team_home_player_two_score_two": 0,
+    "team_home_player_three_score_one": 0,
+    "team_home_player_three_score_two": 0,
+    "team_home_player_four_score_one": 0,
+    "team_home_player_four_score_two": 0,
+    "team_home_player_five_score_one": 0,
+    "team_home_player_five_score_two": 0,
+    "team_home_player_six_score_one": 0,
+    "team_home_player_six_score_two": 0,
+    "team_away_player_one_score_one": 0,
+    "team_away_player_one_score_two": 0,
+    "team_away_player_two_score_one": 0,
+    "team_away_player_two_score_two": 0,
+    "team_away_player_three_score_one": 0,
+    "team_away_player_three_score_two": 0,
+    "team_away_player_four_score_one": 0,
+    "team_away_player_four_score_two": 0,
+    "team_away_player_five_score_one": 0,
+    "team_away_player_five_score_two": 0,
+    "team_away_player_six_score_one": 0,
+    "team_away_player_six_score_two": 0,
+    "team_home": [
+      5
+    ],
+    "team_home_player_one": [],
+    "team_home_player_two": [],
+    "team_home_player_three": [],
+    "team_home_player_four": [],
+    "team_home_player_five": [],
+    "team_home_player_six": [],
+    "team_away": [
+      16
+    ],
+    "team_away_player_one": [],
+    "team_away_player_two": [],
+    "team_away_player_three": [],
+    "team_away_player_four": [],
+    "team_away_player_five": [],
+    "team_away_player_six": []
+  }
+},
+{
+  "model": "gameweeks.match",
+  "pk": 4,
+  "fields": {
+    "gameweek": 1,
+    "name": "Div One - Joh A V Bre A",
+    "date": "2021-12-02",
+    "time": "18:00:00",
+    "played": false,
+    "team_home_player_one_score_one": 0,
+    "team_home_player_one_score_two": 0,
+    "team_home_player_two_score_one": 0,
+    "team_home_player_two_score_two": 0,
+    "team_home_player_three_score_one": 0,
+    "team_home_player_three_score_two": 0,
+    "team_home_player_four_score_one": 0,
+    "team_home_player_four_score_two": 0,
+    "team_home_player_five_score_one": 0,
+    "team_home_player_five_score_two": 0,
+    "team_home_player_six_score_one": 0,
+    "team_home_player_six_score_two": 0,
+    "team_away_player_one_score_one": 0,
+    "team_away_player_one_score_two": 0,
+    "team_away_player_two_score_one": 0,
+    "team_away_player_two_score_two": 0,
+    "team_away_player_three_score_one": 0,
+    "team_away_player_three_score_two": 0,
+    "team_away_player_four_score_one": 0,
+    "team_away_player_four_score_two": 0,
+    "team_away_player_five_score_one": 0,
+    "team_away_player_five_score_two": 0,
+    "team_away_player_six_score_one": 0,
+    "team_away_player_six_score_two": 0,
+    "team_home": [
+      8
+    ],
+    "team_home_player_one": [],
+    "team_home_player_two": [],
+    "team_home_player_three": [],
+    "team_home_player_four": [],
+    "team_home_player_five": [],
+    "team_home_player_six": [],
+    "team_away": [
+      1
+    ],
+    "team_away_player_one": [],
+    "team_away_player_two": [],
+    "team_away_player_three": [],
+    "team_away_player_four": [],
+    "team_away_player_five": [],
+    "team_away_player_six": []
+  }
+}
+]

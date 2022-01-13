@@ -1,0 +1,33 @@
+[
+{
+  "model": "league.season",
+  "pk": 1,
+  "fields": {
+    "name": "21/22"
+  }
+},
+{
+  "model": "league.competition",
+  "pk": 1,
+  "fields": {
+    "season": 1,
+    "name": "21/22 - J.S.S.A Indoor Season Division One"
+  }
+},
+{
+  "model": "league.competition",
+  "pk": 2,
+  "fields": {
+    "season": 1,
+    "name": "21/22 - J.S.S.A Indoor Season Division Two"
+  }
+},
+{
+  "model": "league.competition",
+  "pk": 3,
+  "fields": {
+    "season": 1,
+    "name": "21/22 - J.S.S.A Indoor Season Junior Division"
+  }
+}
+]

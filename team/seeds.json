@@ -1,0 +1,499 @@
+[
+{
+  "model": "team.team",
+  "pk": 1,
+  "fields": {
+    "name": "St Brelade A",
+    "bio": "St Brelade Info",
+    "logo": "St Brelade Logo",
+    "website": "St Brelade Website",
+    "phone": "9999999999999",
+    "email": "StBrelade@StBrelade.com",
+    "address": "St Brelade Adress",
+    "players": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+},
+{
+  "model": "team.team",
+  "pk": 2,
+  "fields": {
+    "name": "St Brelade J",
+    "bio": "St Brelade Info",
+    "logo": "St Brelade Logo",
+    "website": "St Brelade Website",
+    "phone": "9999999999999",
+    "email": "StBrelade@StBrelade.com",
+    "address": "St Brelade Address",
+    "players": [
+      10,
+      11,
+      12
+    ]
+  }
+},
+{
+  "model": "team.team",
+  "pk": 3,
+  "fields": {
+    "name": "Grouville A",
+    "bio": "Grouville Info",
+    "logo": "Grouville Logo",
+    "website": "Grouville Website",
+    "phone": "88888888888",
+    "email": "grouville@grouville.com",
+    "address": "Grouville Address",
+    "players": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  }
+},
+{
+  "model": "team.team",
+  "pk": 4,
+  "fields": {
+    "name": "Grouville J",
+    "bio": "Grouville Info",
+    "logo": "Grouville Logo",
+    "website": "Grouville Website",
+    "phone": "88888888888",
+    "email": "grouville@grouville.com",
+    "address": "Grouville Address",
+    "players": [
+      20,
+      21
+    ]
+  }
+},
+{
+  "model": "team.team",
+  "pk": 5,
+  "fields": {
+    "name": "St Helier A",
+    "bio": "St Helier Info",
+    "logo": "St Helier Logo",
+    "website": "St Helier Website",
+    "phone": "777777777777",
+    "email": "StHelier@St Helier.com",
+    "address": "St Helier Address",
+    "players": [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  }
+},
+{
+  "model": "team.team",
+  "pk": 6,
+  "fields": {
+    "name": "St Helier B",
+    "bio": "St Helier Info",
+    "logo": "St Helier Logo",
+    "website": "St Helier Website",
+    "phone": "777777777777",
+    "email": "StHelier@St Helier.com",
+    "address": "St Helier Address",
+    "players": [
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37
+    ]
+  }
+},
+{
+  "model": "team.team",
+  "pk": 7,
+  "fields": {
+    "name": "St Helier J",
+    "bio": "St Helier Info",
+    "logo": "St Helier Logo",
+    "website": "St Helier Website",
+    "phone": "777777777777",
+    "email": "StHelier@St Helier.com",
+    "address": "St Helier Address",
+    "players": [
+      26,
+      31,
+      33,
+      34,
+      35,
+      37
+    ]
+  }
+},
+{
+  "model": "team.team",
+  "pk": 8,
+  "fields": {
+    "name": "St John A",
+    "bio": "St John Info",
+    "logo": "St John Logo",
+    "website": "St John Website",
+    "phone": "66666666666",
+    "email": "Stjohn@stjohn.com",
+    "address": "St John Address",
+    "players": [
+      38,
+      39,
+      40,
+      41,
+      42,
+      43
+    ]
+  }
+},
+{
+  "model": "team.team",
+  "pk": 9,
+  "fields": {
+    "name": "St John B",
+    "bio": "St John Info",
+    "logo": "St John Logo",
+    "website": "St John Website",
+    "phone": "66666666666",
+    "email": "Stjohn@stjohn.com",
+    "address": "St John Address",
+    "players": [
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52
+    ]
+  }
+},
+{
+  "model": "team.team",
+  "pk": 10,
+  "fields": {
+    "name": "St John J",
+    "bio": "St John Info",
+    "logo": "St John Logo",
+    "website": "St John Website",
+    "phone": "66666666666",
+    "email": "Stjohn@stjohn.com",
+    "address": "St John Address",
+    "players": [
+      52,
+      53
+    ]
+  }
+},
+{
+  "model": "team.team",
+  "pk": 11,
+  "fields": {
+    "name": "St Lawrence A",
+    "bio": "St Lawrence Info",
+    "logo": "St Lawrence Logo",
+    "website": "St Lawrence Website",
+    "phone": "55555555555",
+    "email": "StLawrence@stlawrence.com",
+    "address": "St Lawrence Address",
+    "players": [
+      54,
+      55,
+      56,
+      57,
+      58,
+      59
+    ]
+  }
+},
+{
+  "model": "team.team",
+  "pk": 12,
+  "fields": {
+    "name": "St Lawrence B",
+    "bio": "St Lawrence Info",
+    "logo": "St Lawrence Logo",
+    "website": "St Lawrence Website",
+    "phone": "55555555555",
+    "email": "StLawrence@stlawrence.com",
+    "address": "St Lawrence Address",
+    "players": [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65
+    ]
+  }
+},
+{
+  "model": "team.team",
+  "pk": 13,
+  "fields": {
+    "name": "St Lawrence C",
+    "bio": "St Lawrence Info",
+    "logo": "St Lawrence Logo",
+    "website": "St Lawrence Website",
+    "phone": "55555555555",
+    "email": "StLawrence@stlawrence.com",
+    "address": "St Lawrence Address",
+    "players": [
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74
+    ]
+  }
+},
+{
+  "model": "team.team",
+  "pk": 14,
+  "fields": {
+    "name": "St Lawrence J",
+    "bio": "St Lawrence Info",
+    "logo": "St Lawrence Logo",
+    "website": "St Lawrence Website",
+    "phone": "55555555555",
+    "email": "StLawrence@stlawrence.com",
+    "address": "St Lawrence Address",
+    "players": [
+      64,
+      65,
+      67,
+      70,
+      72,
+      75
+    ]
+  }
+},
+{
+  "model": "team.team",
+  "pk": 15,
+  "fields": {
+    "name": "Leoville A",
+    "bio": "Leoville Info",
+    "logo": "Leoville Logo",
+    "website": "Leoville Website",
+    "phone": "44444444444",
+    "email": "Leoville@Leoville.com",
+    "address": "Leoville Address",
+    "players": [
+      76,
+      77,
+      78,
+      79,
+      80,
+      81
+    ]
+  }
+},
+{
+  "model": "team.team",
+  "pk": 16,
+  "fields": {
+    "name": "Leoville B",
+    "bio": "Leoville Info",
+    "logo": "Leoville Logo",
+    "website": "Leoville Website",
+    "phone": "44444444444",
+    "email": "Leoville@Leoville.com",
+    "address": "Leoville Address",
+    "players": [
+      82,
+      83,
+      84,
+      85,
+      86,
+      87
+    ]
+  }
+},
+{
+  "model": "team.team",
+  "pk": 17,
+  "fields": {
+    "name": "Leoville C",
+    "bio": "Leoville Info",
+    "logo": "Leoville Logo",
+    "website": "Leoville Website",
+    "phone": "44444444444",
+    "email": "Leoville@Leoville.com",
+    "address": "Leoville Address",
+    "players": [
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94
+    ]
+  }
+},
+{
+  "model": "team.team",
+  "pk": 18,
+  "fields": {
+    "name": "Leoville J",
+    "bio": "Leoville Info",
+    "logo": "Leoville Logo",
+    "website": "Leoville Website",
+    "phone": "44444444444",
+    "email": "Leoville@Leoville.com",
+    "address": "Leoville Address",
+    "players": [
+      94,
+      95
+    ]
+  }
+},
+{
+  "model": "team.team",
+  "pk": 19,
+  "fields": {
+    "name": "Vinchelez A",
+    "bio": "Vinchelez Info",
+    "logo": "Vinchelez Logo",
+    "website": "Vinchelez Website",
+    "phone": "33333333333",
+    "email": "Vinchelez@Vinchelez.com",
+    "address": "Vinchelez Address",
+    "players": [
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104
+    ]
+  }
+},
+{
+  "model": "team.team",
+  "pk": 20,
+  "fields": {
+    "name": "Western A",
+    "bio": "The club was founded in 1907, during the time between the Boer War and the First World War, when the Government of the day actively promoted the formation of shooting clubs.   The club moved to its present site in 1968. Since then, the facilities have been improved and updated on a regular basis. The last major programme was a complete refurbishment of the clubhouse in 2015 which included the installation of electronic targets.",
+    "logo": "https://images.squarespace-cdn.com/content/v1/5cc951e1e666697cf96a4f0b/1575628917722-CVH2M54VLSYZIPD7V8YK/Western_MRC_Logo-removebg-preview.png?format=1500w",
+    "website": "https://www.westernmrc.org.je",
+    "phone": "01534 483293",
+    "email": "westernmrc@gmail.com",
+    "address": "La Rue de la Fosse\r\nSt Peter\r\nJersey\r\nJE3 7AH",
+    "players": [
+      105,
+      106,
+      107,
+      108,
+      109,
+      110
+    ]
+  }
+},
+{
+  "model": "team.team",
+  "pk": 21,
+  "fields": {
+    "name": "Western B",
+    "bio": "Western Info",
+    "logo": "https://images.squarespace-cdn.com/content/v1/5cc951e1e666697cf96a4f0b/1575628917722-CVH2M54VLSYZIPD7V8YK/Western_MRC_Logo-removebg-preview.png?format=1500w",
+    "website": "www.westernmrc.org.je",
+    "phone": "01534 483293",
+    "email": "westernmrc@gmail.com",
+    "address": "La Rue de la Fosse\r\nSt Peter\r\nJersey\r\nJE3 7AH",
+    "players": [
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123
+    ]
+  }
+},
+{
+  "model": "team.team",
+  "pk": 22,
+  "fields": {
+    "name": "Western J",
+    "bio": "The club was founded in 1907, during the time between the Boer War and the First World War, when the Government of the day actively promoted the formation of shooting clubs.   The club moved to its present site in 1968. Since then, the facilities have been improved and updated on a regular basis. The last major programme was a complete refurbishment of the clubhouse in 2015 which included the installation of electronic targets.",
+    "logo": "https://images.squarespace-cdn.com/content/v1/5cc951e1e666697cf96a4f0b/1575628917722-CVH2M54VLSYZIPD7V8YK/Western_MRC_Logo-removebg-preview.png?format=1500w",
+    "website": "www.westernmrc.org.je",
+    "phone": "01534 483293",
+    "email": "westernmrc@gmail.com",
+    "address": "La Rue de la Fosse\r\nSt Peter\r\nJersey\r\nJE3 7AH",
+    "players": [
+      115,
+      124,
+      118,
+      119
+    ]
+  }
+},
+{
+  "model": "team.team",
+  "pk": 23,
+  "fields": {
+    "name": "Guernsey A",
+    "bio": "Guernsey Info",
+    "logo": "Guernsey Logo",
+    "website": "Guernsey Website",
+    "phone": "22222222222",
+    "email": "Guernsey@Guernsey.com",
+    "address": "Guernsey Address",
+    "players": [
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      125,
+      126,
+      127
+    ]
+  }
+}
+]

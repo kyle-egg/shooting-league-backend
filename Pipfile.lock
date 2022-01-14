@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "497aa146958ffda4a72f5b6fdca40d01f32e3c4bee296f08586895d638cff0a3"
+            "sha256": "391d68878bc8d803686e80b4d7b4d51ed77e61280777ae62716cee033fb31487"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -26,11 +26,11 @@
         },
         "astroid": {
             "hashes": [
-                "sha256:72ace9c3333e274e9248168fc4f3e300da8545af1c303bd69197027f49e2bfff",
-                "sha256:aa296702f1a5c3102c860de49473aaa90a7f6d221555d5cf2678940a9be32a4e"
+                "sha256:1efdf4e867d4d8ba4a9f6cf9ce07cd182c4c41de77f23814feb27ca93ca9d877",
+                "sha256:506daabe5edffb7e696ad82483ad0228245a9742ed7d2d8c9cdb31537decf9f6"
             ],
             "markers": "python_full_version >= '3.6.2'",
-            "version": "==2.9.2"
+            "version": "==2.9.3"
         },
         "backports.zoneinfo": {
             "hashes": [
@@ -61,6 +61,21 @@
             ],
             "index": "pypi",
             "version": "==4.0.1"
+        },
+        "djangorestframework": {
+            "hashes": [
+                "sha256:0c33407ce23acc68eca2a6e46424b008c9c02eceb8cf18581921d0092bc1f2ee",
+                "sha256:24c4bf58ed7e85d1fe4ba250ab2da926d263cd57d64b03e8dcef0ac683f8b1aa"
+            ],
+            "index": "pypi",
+            "version": "==3.13.1"
+        },
+        "djangorestframework-camel-case": {
+            "hashes": [
+                "sha256:df591362ffa448c8f0a354c56ae8a53fb7abbb15e222951d0c6f5f781633907e"
+            ],
+            "index": "pypi",
+            "version": "==1.3.0"
         },
         "isort": {
             "hashes": [
@@ -197,6 +212,13 @@
             ],
             "index": "pypi",
             "version": "==2.12.2"
+        },
+        "pytz": {
+            "hashes": [
+                "sha256:3672058bc3453457b622aab7a1c3bfd5ab0bdae451512f6cf25f64ed37f5b87c",
+                "sha256:acad2d8b20a1af07d4e4c9d2e9285c5ed9104354062f275f3fcd88dcef4f1326"
+            ],
+            "version": "==2021.3"
         },
         "sqlparse": {
             "hashes": [

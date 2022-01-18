@@ -465,9 +465,9 @@
     "address": "La Rue de la Fosse\r\nSt Peter\r\nJersey\r\nJE3 7AH",
     "players": [
       115,
-      124,
       118,
-      119
+      119,
+      124
     ]
   }
 },
@@ -483,17 +483,31 @@
     "email": "Guernsey@Guernsey.com",
     "address": "Guernsey Address",
     "players": [
+      125,
+      126,
+      127,
       128,
       129,
       130,
       131,
       132,
       133,
-      134,
-      125,
-      126,
-      127
+      134
     ]
+  }
+},
+{
+  "model": "team.team",
+  "pk": 24,
+  "fields": {
+    "name": "Vinchelez J",
+    "bio": "Vinchelez Bio",
+    "logo": "Vinchelez Logo",
+    "website": "Vinchelez Website",
+    "phone": "11111111111",
+    "email": "Vinchelez@Vinchelez.com",
+    "address": "Vinchelez Address",
+    "players": []
   }
 }
 ]

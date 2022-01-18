@@ -18,7 +18,7 @@ class GwDetailView(RetrieveUpdateDestroyAPIView):
     serializer_class = GwSerializer
 
 class MatchListView(ListCreateAPIView):
-    ''' List View for /matchess GET'''
+    ''' List View for /matches GET'''
     queryset = Match.objects.all()
     serializer_class = MatchSerializer
 
@@ -26,3 +26,4 @@ class MatchDetailView(RetrieveUpdateDestroyAPIView):
     ''' Detail View for /matchess/id SHOW UPDATE DELETE'''
     queryset = Match.objects.all()
     serializer_class = MatchSerializer
+

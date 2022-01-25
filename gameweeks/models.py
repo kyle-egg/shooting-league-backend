@@ -1,24 +1,12 @@
 from django.db import models
 from django.core.validators import MaxValueValidator
 
-class Gw(models.Model):
+class Match(models.Model):
     league = models.ManyToManyField(
         'league.Competition',
         related_name='fixtures',
         blank=True
     )
-    date = models.CharField(max_length=100, unique=True)
-
-    def __str__(self):
-        return f'{self.date}'
-
-class Match(models.Model):
-    gameweek = models.ForeignKey(
-        Gw,
-        related_name='matches',
-        on_delete=models.CASCADE
-    )
-    name = models.CharField(max_length=200)
     date = models.DateField()
     time = models.TimeField()
     played = models.BooleanField()
@@ -117,4 +105,4 @@ class Match(models.Model):
     team_away_player_six_score_one = models.PositiveIntegerField(default=0, validators=[MaxValueValidator(100)], null=True)
     team_away_player_six_score_two = models.PositiveIntegerField(default=0, validators=[MaxValueValidator(100)], null=True)     
     def __str__(self):
-        return f'{self.date} - {self.name}'
+        return f'{self.date}'

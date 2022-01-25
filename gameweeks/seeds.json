@@ -1,34 +1,8 @@
 [
 {
-  "model": "gameweeks.gw",
-  "pk": 1,
-  "fields": {
-    "date": "December 2nd - 3rd 2021",
-    "league": [
-      1,
-      2,
-      3
-    ]
-  }
-},
-{
-  "model": "gameweeks.gw",
-  "pk": 2,
-  "fields": {
-    "date": "January 13th - 14th 2022",
-    "league": [
-      1,
-      2,
-      3
-    ]
-  }
-},
-{
   "model": "gameweeks.match",
   "pk": 3,
   "fields": {
-    "gameweek": 1,
-    "name": "Div One - Hel A V Leo B",
     "date": "2021-12-02",
     "time": "18:00:00",
     "played": false,
@@ -56,6 +30,9 @@
     "team_away_player_five_score_two": 0,
     "team_away_player_six_score_one": 0,
     "team_away_player_six_score_two": 0,
+    "league": [
+      1
+    ],
     "team_home": [
       5
     ],
@@ -80,8 +57,6 @@
   "model": "gameweeks.match",
   "pk": 4,
   "fields": {
-    "gameweek": 1,
-    "name": "Div One - Joh A V Bre A",
     "date": "2021-12-02",
     "time": "18:00:00",
     "played": false,
@@ -109,6 +84,7 @@
     "team_away_player_five_score_two": 0,
     "team_away_player_six_score_one": 0,
     "team_away_player_six_score_two": 0,
+    "league": [],
     "team_home": [
       8
     ],
@@ -133,8 +109,6 @@
   "model": "gameweeks.match",
   "pk": 5,
   "fields": {
-    "gameweek": 1,
-    "name": "Div One - Vin A V Law A",
     "date": "2021-12-02",
     "time": "18:00:00",
     "played": false,
@@ -162,6 +136,7 @@
     "team_away_player_five_score_two": 0,
     "team_away_player_six_score_one": 0,
     "team_away_player_six_score_two": 0,
+    "league": [],
     "team_home": [
       19
     ],
@@ -186,8 +161,6 @@
   "model": "gameweeks.match",
   "pk": 6,
   "fields": {
-    "gameweek": 1,
-    "name": "Div One - Wes A V Leo A",
     "date": "2021-12-02",
     "time": "18:00:00",
     "played": false,
@@ -215,6 +188,7 @@
     "team_away_player_five_score_two": 0,
     "team_away_player_six_score_one": 0,
     "team_away_player_six_score_two": 0,
+    "league": [],
     "team_home": [
       20
     ],
@@ -239,8 +213,6 @@
   "model": "gameweeks.match",
   "pk": 7,
   "fields": {
-    "gameweek": 1,
-    "name": "Div One - Gur A V Wes A",
     "date": "2021-12-02",
     "time": "18:00:00",
     "played": false,
@@ -268,6 +240,7 @@
     "team_away_player_five_score_two": 0,
     "team_away_player_six_score_one": 0,
     "team_away_player_six_score_two": 0,
+    "league": [],
     "team_home": [
       23
     ],
@@ -292,8 +265,6 @@
   "model": "gameweeks.match",
   "pk": 8,
   "fields": {
-    "gameweek": 1,
-    "name": "Div Two - Joh B V Law C",
     "date": "2021-12-02",
     "time": "18:00:00",
     "played": false,
@@ -321,6 +292,7 @@
     "team_away_player_five_score_two": 0,
     "team_away_player_six_score_one": 0,
     "team_away_player_six_score_two": 0,
+    "league": [],
     "team_home": [
       9
     ],
@@ -345,8 +317,6 @@
   "model": "gameweeks.match",
   "pk": 9,
   "fields": {
-    "gameweek": 1,
-    "name": "Div Two - Law B V Hel B",
     "date": "2021-12-02",
     "time": "18:00:00",
     "played": false,
@@ -374,6 +344,7 @@
     "team_away_player_five_score_two": 0,
     "team_away_player_six_score_one": 0,
     "team_away_player_six_score_two": 0,
+    "league": [],
     "team_home": [
       12
     ],
@@ -398,8 +369,6 @@
   "model": "gameweeks.match",
   "pk": 10,
   "fields": {
-    "gameweek": 1,
-    "name": "Div Junior - Hel J V Bre J",
     "date": "2021-12-02",
     "time": "18:00:00",
     "played": false,
@@ -427,6 +396,7 @@
     "team_away_player_five_score_two": 0,
     "team_away_player_six_score_one": 0,
     "team_away_player_six_score_two": 0,
+    "league": [],
     "team_home": [
       7
     ],
@@ -451,8 +421,6 @@
   "model": "gameweeks.match",
   "pk": 11,
   "fields": {
-    "gameweek": 1,
-    "name": "Div Junior - Vin J V Law J",
     "date": "2021-12-02",
     "time": "18:00:00",
     "played": false,
@@ -480,6 +448,7 @@
     "team_away_player_five_score_two": 0,
     "team_away_player_six_score_one": 0,
     "team_away_player_six_score_two": 0,
+    "league": [],
     "team_home": [
       24
     ],
@@ -504,8 +473,6 @@
   "model": "gameweeks.match",
   "pk": 12,
   "fields": {
-    "gameweek": 1,
-    "name": "Div Junior - Wes J V Leo J",
     "date": "2021-12-02",
     "time": "18:00:00",
     "played": false,
@@ -533,6 +500,7 @@
     "team_away_player_five_score_two": 0,
     "team_away_player_six_score_one": 0,
     "team_away_player_six_score_two": 0,
+    "league": [],
     "team_home": [
       22
     ],
@@ -557,8 +525,6 @@
   "model": "gameweeks.match",
   "pk": 13,
   "fields": {
-    "gameweek": 2,
-    "name": "Div One - Bre A V Hel A",
     "date": "2022-01-13",
     "time": "18:00:00",
     "played": false,
@@ -586,6 +552,7 @@
     "team_away_player_five_score_two": 0,
     "team_away_player_six_score_one": 0,
     "team_away_player_six_score_two": 0,
+    "league": [],
     "team_home": [
       1
     ],
@@ -610,8 +577,6 @@
   "model": "gameweeks.match",
   "pk": 14,
   "fields": {
-    "gameweek": 2,
-    "name": "Div One - Leo A V Joh A",
     "date": "2022-01-13",
     "time": "18:00:00",
     "played": false,
@@ -639,6 +604,7 @@
     "team_away_player_five_score_two": 0,
     "team_away_player_six_score_one": 0,
     "team_away_player_six_score_two": 0,
+    "league": [],
     "team_home": [
       15
     ],
@@ -663,8 +629,6 @@
   "model": "gameweeks.match",
   "pk": 15,
   "fields": {
-    "gameweek": 2,
-    "name": "Div One - Vin A V Law B",
     "date": "2022-01-13",
     "time": "18:00:00",
     "played": false,
@@ -692,6 +656,9 @@
     "team_away_player_five_score_two": 0,
     "team_away_player_six_score_one": 0,
     "team_away_player_six_score_two": 0,
+    "league": [
+      1
+    ],
     "team_home": [
       19
     ],
@@ -716,8 +683,6 @@
   "model": "gameweeks.match",
   "pk": 16,
   "fields": {
-    "gameweek": 2,
-    "name": "Div One - Wes A V Law A",
     "date": "2022-01-13",
     "time": "18:00:00",
     "played": false,
@@ -745,6 +710,7 @@
     "team_away_player_five_score_two": 0,
     "team_away_player_six_score_one": 0,
     "team_away_player_six_score_two": 0,
+    "league": [],
     "team_home": [
       20
     ],
@@ -769,8 +735,6 @@
   "model": "gameweeks.match",
   "pk": 17,
   "fields": {
-    "gameweek": 2,
-    "name": "Div One - Gur A V Law A",
     "date": "2022-01-13",
     "time": "18:00:00",
     "played": false,
@@ -798,6 +762,9 @@
     "team_away_player_five_score_two": 0,
     "team_away_player_six_score_one": 0,
     "team_away_player_six_score_two": 0,
+    "league": [
+      1
+    ],
     "team_home": [
       23
     ],
@@ -822,8 +789,6 @@
   "model": "gameweeks.match",
   "pk": 18,
   "fields": {
-    "gameweek": 2,
-    "name": "Div Two - Gro A V Hel B",
     "date": "2022-01-13",
     "time": "18:00:00",
     "played": false,
@@ -851,6 +816,9 @@
     "team_away_player_five_score_two": 0,
     "team_away_player_six_score_one": 0,
     "team_away_player_six_score_two": 0,
+    "league": [
+      2
+    ],
     "team_home": [
       3
     ],
@@ -875,8 +843,6 @@
   "model": "gameweeks.match",
   "pk": 19,
   "fields": {
-    "gameweek": 2,
-    "name": "Div Two - Law B V Joh B",
     "date": "2022-01-13",
     "time": "18:00:00",
     "played": false,
@@ -904,6 +870,9 @@
     "team_away_player_five_score_two": 0,
     "team_away_player_six_score_one": 0,
     "team_away_player_six_score_two": 0,
+    "league": [
+      2
+    ],
     "team_home": [
       12
     ],
@@ -928,8 +897,6 @@
   "model": "gameweeks.match",
   "pk": 20,
   "fields": {
-    "gameweek": 2,
-    "name": "Div Two - Wes B V Law C",
     "date": "2022-01-13",
     "time": "18:00:00",
     "played": false,
@@ -957,6 +924,9 @@
     "team_away_player_five_score_two": 0,
     "team_away_player_six_score_one": 0,
     "team_away_player_six_score_two": 0,
+    "league": [
+      2
+    ],
     "team_home": [
       21
     ],
@@ -981,8 +951,6 @@
   "model": "gameweeks.match",
   "pk": 21,
   "fields": {
-    "gameweek": 2,
-    "name": "Div Junior - Vin J V Bre J",
     "date": "2022-01-13",
     "time": "18:00:00",
     "played": false,
@@ -1010,6 +978,9 @@
     "team_away_player_five_score_two": 0,
     "team_away_player_six_score_one": 0,
     "team_away_player_six_score_two": 0,
+    "league": [
+      3
+    ],
     "team_home": [
       24
     ],
@@ -1034,8 +1005,6 @@
   "model": "gameweeks.match",
   "pk": 22,
   "fields": {
-    "gameweek": 2,
-    "name": "Div Junior - Gro J V Hel J",
     "date": "2022-01-13",
     "time": "18:00:00",
     "played": false,
@@ -1063,6 +1032,9 @@
     "team_away_player_five_score_two": 0,
     "team_away_player_six_score_one": 0,
     "team_away_player_six_score_two": 0,
+    "league": [
+      3
+    ],
     "team_home": [
       4
     ],
@@ -1087,8 +1059,6 @@
   "model": "gameweeks.match",
   "pk": 23,
   "fields": {
-    "gameweek": 2,
-    "name": "Div Junior - Leo J V Joh J",
     "date": "2022-01-13",
     "time": "18:00:00",
     "played": false,
@@ -1116,6 +1086,9 @@
     "team_away_player_five_score_two": 0,
     "team_away_player_six_score_one": 0,
     "team_away_player_six_score_two": 0,
+    "league": [
+      3
+    ],
     "team_home": [
       18
     ],
@@ -1140,8 +1113,6 @@
   "model": "gameweeks.match",
   "pk": 24,
   "fields": {
-    "gameweek": 2,
-    "name": "Div Junior - Wes J V Law J",
     "date": "2022-01-13",
     "time": "18:00:00",
     "played": false,
@@ -1169,6 +1140,9 @@
     "team_away_player_five_score_two": 0,
     "team_away_player_six_score_one": 0,
     "team_away_player_six_score_two": 0,
+    "league": [
+      3
+    ],
     "team_home": [
       22
     ],
